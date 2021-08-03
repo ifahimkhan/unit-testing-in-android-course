@@ -15,7 +15,8 @@ public interface UserProfileHttpEndpointSync {
         SUCCESS,
         AUTH_ERROR,
         SERVER_ERROR,
-        GENERAL_ERROR
+        GENERAL_ERROR,
+        FAILURE
     }
 
     class EndpointResult {

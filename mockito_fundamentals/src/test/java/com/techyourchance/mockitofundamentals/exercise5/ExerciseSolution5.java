@@ -47,6 +47,8 @@ public class ExerciseSolution5 {
         success();
     }
 
+
+
     @Test
     public void updateUsername_success_userIdAndUsernamePassedToEndpoint() throws Exception {
         ArgumentCaptor<String> ac = ArgumentCaptor.forClass(String.class);
